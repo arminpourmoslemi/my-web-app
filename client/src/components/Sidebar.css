@@ -1,0 +1,48 @@
+.sidebar {
+    background-color: #2e2e2e; /* رنگ پس‌زمینه تیره (مثال) */
+    color: #fff;
+    width: 250px;
+    padding: 1rem;
+    height: 100%; /* ارتفاع کل */
+    overflow-y: auto;
+    font-family: sans-serif; /* دلخواه */
+  }
+  
+  .sidebar-item {
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar-item-header {
+    cursor: pointer;
+    background-color: #3a3a3a;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sidebar-item-header:hover {
+    background-color: #4a4a4a;
+  }
+  
+  .sidebar-subitems {
+    margin-top: 0.5rem;
+    margin-right: 1rem; /* کمی فاصله از سمت راست */
+    display: flex;
+    flex-direction: column; /* زیرشاخه‌ها عمودی باشند */
+  }
+  
+  .sidebar-subitem {
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 0.25rem;
+    background-color: #444; /* رنگ پس‌زمینه کمی تیره‌تر */
+  }
+  
+  .sidebar-subitem:hover {
+    background-color: #555;
+  }
+  

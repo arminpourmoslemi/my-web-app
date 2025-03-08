@@ -1,0 +1,59 @@
+/* کانتینر کلی */
+.warehouse-container {
+    padding: 1rem;
+    font-family: sans-serif;
+  }
+  
+  /* فرم اصلی */
+  .warehouse-form {
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 6px;
+  }
+  
+  /* هر سطر از فرم */
+  .form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    gap: 1rem; /* فاصله بین ستون‌های سطر */
+  }
+  
+  /* گروه لیبل و اینپوت */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: right; /* راست‌چین */
+  }
+  
+  /* جدول */
+  .warehouse-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .warehouse-table th,
+  .warehouse-table td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  /* دکمه‌ها - رنگ طوسی */
+  button {
+    cursor: pointer;
+    padding: 0.4rem 0.8rem;
+    margin: 0 0.2rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #888; /* طوسی */
+    color: #fff;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #666; /* طوسی تیره‌تر هنگام هاور */
+  }
+  

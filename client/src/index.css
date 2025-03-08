@@ -1,0 +1,25 @@
+/* index.css */
+
+/* اگر فونت اختصاصی دارید، اینجا تعریف کنید:
+@font-face {
+  font-family: 'IRANSansWeb';
+  src: url('./assets/fonts/IRANSansWeb.woff2') format('woff2'),
+       url('./assets/fonts/IRANSansWeb.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  direction: rtl;
+  text-align: right;
+  font-family: 'IRANSansWeb', sans-serif; /* اگر فونت اختصاصی ندارید، از sans-serif استفاده کنید */
+  font-size: 14px;
+  background-color: #f9f9f9;
+}
